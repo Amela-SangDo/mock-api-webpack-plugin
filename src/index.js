@@ -13,9 +13,9 @@ MockApiWebpackPlugin.prototype.apply = function(compiler) {
 		port: this.port
 	})
 
-	compiler.plugin('emit', (compilation, callback) => {
-		callback()
-	})
+	// compiler.plugin('emit', (compilation, callback) => {
+	// 	callback()
+	// })
 }
 
 
